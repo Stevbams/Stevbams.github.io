@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>pig</string>
+		<key>ID</key>
+		<integer>500016</integer>
+		<key>Action</key>
+		<integer>0</integer>
+		<key>Sound</key>
+		<integer>0</integer>
+		<key>FacePart</key>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>IF</string>
+			</dict>
+                         <dict>
+				<key>Type</key>
+				<string>S</string>
+				<key>LocateMethod</key>
+				<integer>2</integer>
+				<key>Path</key>
+				<string>sh.png</string>
+				<key>ORGBA</key>
+				<string>50,0,0,0,255</string>
+				<key>Rectangle</key>
+				<string>165,522,670,273</string>
+				<key>FilterType</key>
+				<integer>4</integer>
+				<key>MUType</key>
+				<integer>4</integer>
+				<key>Operation</key>
+				<integer>0</integer>
+			</dict>
+
+			<dict>
+				<key>Type</key>
+				<string>S</string>
+				<key>LocateMethod</key>
+				<integer>2</integer>
+				<key>Path</key>
+				<string>realtime_mouth_open.png</string>
+				<key>AddPath</key>
+				<string>realtime_mouth_close.png</string>
+				<key>SupportOpenMouth</key>
+				<integer>1</integer>
+				<key>AdditionalTexture</key>
+				<string>133_z_lut.png</string>                  
+				<key>ORGBA</key>
+				<string>60,0,0,0,255</string>                  
+				<key>Rectangle</key>
+				<string>360,792,291,132</string>
+				<key>FilterType</key>
+				<integer>51</integer>
+				<key>MUType</key>
+				<integer>1</integer>
+				<key>Operation</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>Facelift</string>
+				<key>FacemeshType</key>
+				<integer>2101</integer>
+				<key>FacemeshParameters</key>
+				<string>0.71;</string>
+			</dict>
+			  <dict>					<key>Type</key><string>Facelift</string>					<key>FacemeshType</key><integer>2198</integer>					<key>FacemeshParameters</key><string>0.80,0.65;</string>				</dict>				<dict>					<key>Type</key><string>Facelift</string>					<key>FacemeshType</key><integer>2101</integer>					<key>FacemeshParameters</key><string>0.71;</string>				</dict>				<dict>					<key>Type</key><string>Facelift</string>					<key>FacemeshType</key><integer>2199</integer>					<key>FacemeshParameters</key><string>0.50,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.51,1.00,0.00,0.52,0.41,1.00,0.41,0.52,0.00,1.00,0.51,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.14,0.00,0.00,0.09,0.22,0.00,0.16,0.06,0.10,0.06,0.16,0.00,0.22,0.09,0.00,0.00,0.14,0.00,0.00,0.00,0.00;</string>				</dict>				<dict>					<key>Type</key><string>Facelift</string>					<key>FacemeshType</key><integer>2400</integer>					<key>FacemeshParameters</key><string>0.55;</string>				</dict>			<dict>
+				<key>Type</key>
+				<string>3DA</string>
+				<key>Path</key>
+				<string>AR-500016.obj</string>
+				<key>EnableSkinning</key>
+				<integer>1</integer>
+				<key>BlendFunc</key>
+				<string>770,771,1,771</string>
+				<key>VideoType</key>
+				<integer>2</integer>
+				<key>DepthIndex</key>
+				<integer>0</integer>
+				<key>PosEstimatorType</key><integer>1</integer>
+				<key>ShapeConfigure</key>
+				<array>
+					<dict>
+						<key>ShapeIndex</key>
+						<integer>0</integer>
+						<key>BeforeCircle</key>
+						<string>nose__FA_.png</string>
+						<key>BeforeCircleInfo</key>
+						<string>3,10,1,30;</string>
+					</dict>
+					<dict>
+						<key>ShapeIndex</key>
+						<integer>2</integer>
+						<key>BeforeCircle</key>
+						<string>ear__FA_.png</string>
+						<key>BeforeCircleInfo</key>
+						<string>7,5,1,35;</string>
+					</dict>
+                                         <dict>
+						<key>ShapeIndex</key>
+						<integer>1</integer>
+						<key>BeforeCircle</key>
+						<string>heart__FA_.png</string>
+						<key>BeforeCircleInfo</key>
+						<string>6,8,1,48;</string>
+					</dict>
+                    	        </array>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
